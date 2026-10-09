@@ -498,7 +498,7 @@ p {
 .service-card-control {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
-  align-items: center;
+  align-items: start;
   gap: 14px;
   width: 100%;
   min-height: 96px;
@@ -534,6 +534,7 @@ p {
 
 .service-control-icon {
   display: grid;
+  margin-top: 2px;
   width: 44px;
   height: 44px;
   place-items: center;
@@ -574,6 +575,7 @@ p {
 }
 
 .service-card-control > svg {
+  margin-top: 13px;
   color: var(--brand-cyan-dark);
   opacity: 0.7;
 }
@@ -588,13 +590,17 @@ p {
   display: grid;
   grid-column: 1 / -1;
   gap: 14px;
-  padding-top: 6px;
+  padding-top: 4px;
+}
+
+.service-card-control:not([aria-selected="true"]) .service-mobile-detail {
+  display: none;
 }
 
 .service-mobile-image {
   position: relative;
   display: block;
-  min-height: 190px;
+  min-height: clamp(170px, 46vw, 260px);
   overflow: hidden;
   border-radius: 8px;
   background: var(--brand-navy);
