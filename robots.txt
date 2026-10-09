@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://riascos96.github.io/consultoriasadmi-demo/sitemap.xml

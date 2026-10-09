@@ -1,0 +1,5 @@
+:HL["/consultoriasadmi-demo/_next/static/chunks/0eb0zysj0zp8t.css","style"]
+:HL["/consultoriasadmi-demo/_next/static/media/ce62453a442c7f35-s.p.0a0h245ktd4x0.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/consultoriasadmi-demo/_next/static/media/cf514f5d0007dafa-s.p.1wc2mf9hp9pav.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+1:[["children",{"s":"__PAGE__","h":160}]]
+0:{"b":"OqwWRUzUblLtsRmybk35K","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
